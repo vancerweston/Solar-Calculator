@@ -44,28 +44,33 @@ ol, ul {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 300; /* loaded 300 and 700*/
 }
 header {
-	border-top: 40px solid #004b8e;
+	border-top: 40px solid #e27b1b;
+	border-radius: 40px;
 	background-image: url(../images/sun.png);
 	/*Sun from https://openclipart.org/detail/3367/decorative-sun*/
 	background-repeat: no-repeat;
 }
 header h1 {
-	color: #e05b13;
+	color: #004b8e;
 	font-size: 3rem;
 	
 	padding: .5rem 0 .5rem 60px;
 }
 header, nav, main, footer {max-width: 960px; margin: 0 auto;}
-nav {background-color: #004b8e}
+nav {
+	background-color: #e27b1b;
+	border-radius: 50px;
+}
 nav li {
 	float: left;
 	width: 25%;
 }
 nav li a {
+	border-radius: 50px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
@@ -74,15 +79,15 @@ nav li a {
 	text-align: center;
 	border-right: 1px solid #000;
 }
-nav li.active a {background-color: #002751;}
+nav li.active a {background-color: #e27b1b;}
 main {padding: .3rem 2%; display: block;}
 main h1 {
-	color: #e05b13;
+	color: #004b8e;
 	font-size: 2rem;
 	padding-top: 1rem;
 }
 main h2 {
-	color: #e05b13;
+	color: #004b8e;
 	font-size: 1.5rem;
 	padding-top: 1rem;
 }
@@ -96,7 +101,7 @@ main fieldset {
 	padding: .5rem 2%;
 	margin-top: 1rem;
 }
-main fieldset legend {color:#004b8e; font-weight: 700;}
+main fieldset legend {color:#e27b1b; font-weight: 700;}
 
 main form label {
 	display: block;
@@ -129,8 +134,9 @@ main button {
 }
 
 footer {
+	border-radius: 0 0 50px 50px;
 	text-align: center;
-	background: #004b8e;
+	background: #e27b1b;
 	color: #fff;
 	font-size: .75rem;
 	padding: 1rem 0;
